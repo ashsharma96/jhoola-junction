@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Jhoola Junction Studio</title>
+<meta name="description" content="How Jhoola Junction Studio uses YouTube API Services, what it stores, and how to revoke access or delete data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="./">Jhoola Junction Studio</a>
+    <nav aria-label="Site">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="privacy.html" aria-current="page">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 3 November 2026</p>
+
+    <p>Jhoola Junction Studio ("the Studio") is a private production tool made and used by Atal Sharma, owner of the YouTube channel <a href="https://www.youtube.com/@Jhoola_Junction">Jhoola Junction</a>. It runs on his own computer. It has no public users, accounts or sign-ups. The person who connects the Studio to a YouTube channel must agree to this policy first.</p>
+
+    <h2>YouTube API Services</h2>
+    <p>The Studio uses <strong>YouTube API Services</strong>. By connecting it to a YouTube account you also agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>What the Studio accesses</h2>
+    <p>Only the connected channel's own data, with the permission given on Google's consent screen:</p>
+    <ul>
+      <li><strong>The channel's own videos:</strong> each video's ID, privacy setting, made-for-kids setting, and public view and like counts.</li>
+      <li><strong>YouTube Analytics for those videos:</strong> views, engaged views, watch time, average percentage viewed, subscribers gained and shares, as daily totals.</li>
+      <li><strong>Uploading (only when switched on):</strong> the video file, title, description, tags and scheduled publish time of videos the owner has approved. The Studio asks for this permission separately, and every upload is marked made for kids.</li>
+    </ul>
+    <p>The Studio does <strong>not</strong> access other channels, comments, subscribers' identities, or any information about viewers, and it collects nothing from children.</p>
+
+    <h2>How the information is used</h2>
+    <ul>
+      <li>To show the owner how each video is doing, in the Studio's dashboard.</li>
+      <li>To check that every uploaded video is still marked made for kids, and to stop publishing if something looks wrong.</li>
+      <li>To help the owner plan future videos. Summaries of the channel's own statistics (never anything about viewers) may be sent to the AI model provider the Studio uses, mainly Anthropic's Claude API, to answer the owner's own questions.</li>
+    </ul>
+    <p>The information is not sold, not used for advertising, and not shared with anyone else. The Studio shows no ads and lets no third party serve content through it.</p>
+
+    <h2>Where it is stored</h2>
+    <p>On the owner's computer only: statistics in a local database, and Google's access token in a private file outside the Studio's code. Nothing is stored on a server.</p>
+
+    <h2>Cookies and device storage</h2>
+    <p>These web pages set no cookies and run no analytics or scripts. The "Developed with YouTube" logo on the home page is loaded from Google's servers, so Google receives your browser's request for that image. On the owner's computer, the Studio's dashboard remembers one setting (light or dark theme) in the browser's local storage.</p>
+
+    <h2>How long data is kept, and deleting it</h2>
+    <ul>
+      <li><strong>On request:</strong> the owner can delete everything the Studio stores from YouTube at any time with its delete command (<code>scripts/youtube_forget.py</code>). It removes the statistics and the access token immediately and revokes the access at Google. Any request to delete data is completed within 7 days.</li>
+      <li><strong>If access is revoked:</strong> you can remove the Studio's access at any time on Google's security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. If the Studio can no longer reach YouTube and access isn't restored within 29 days, it deletes the stored YouTube data automatically.</li>
+      <li><strong>While connected:</strong> statistics are refreshed daily from YouTube, which re-checks the permission at least every 30 days.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Questions or complaints about privacy: <a href="mailto:atal.posh@gmail.com">atal.posh@gmail.com</a></p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version is published on this page with a new effective date.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <ul>
+      <li><a href="./">Home</a></li>
+      <li><a href="terms.html">Terms of Use</a></li>
+      <li><a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a></li>
+      <li><a href="http://www.google.com/policies/privacy">Google Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
