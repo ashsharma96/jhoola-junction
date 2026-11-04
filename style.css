@@ -61,7 +61,7 @@ p, li { max-width: 68ch; }
   margin: 24px 0;
 }
 .yt { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-.yt img { height: 84px; width: auto; display: block; }
+.yt img { height: 84px; width: auto; }
 .logo-dark { display: none; }
 .meta { color: var(--muted); font-size: 0.95rem; }
 footer { border-top: 1px solid var(--line); padding: 20px 0 36px; color: var(--muted); font-size: 0.95rem; }
